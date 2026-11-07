@@ -1,4 +1,4 @@
-# AdGuard DNS filter v1.0.85.60 for Shadowrocket — converted 2026-11-06 19:23 UTC
+# AdGuard DNS filter v1.0.85.64 for Shadowrocket — converted 2026-11-07 05:55 UTC
 # Source: https://filters.adtidy.org/dns/filter_1.txt
 DOMAIN,ads.adsterra.com
 DOMAIN,adsterra.com
@@ -191,6 +191,7 @@ DOMAIN-SUFFIX,tr.rdrtr.com
 DOMAIN-SUFFIX,track.rutarget.ru
 DOMAIN-SUFFIX,track.webgains.com
 DOMAIN-SUFFIX,trk.ecomm.lenovo.com
+DOMAIN-SUFFIX,unsubscribe.email.premierleague.com
 DOMAIN-SUFFIX,unsubscribe.lhinsights.com
 DOMAIN-SUFFIX,used.ca
 DOMAIN-SUFFIX,validate.perfdrive.com
