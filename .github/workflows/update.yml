@@ -17,15 +17,17 @@ jobs:
         with:
           python-version: "3.12"
       - name: Convert
-        run: python adguard2shadowrocket.py .
-      - name: Commit if the filter changed
         run: |
-          # Ignore the timestamp line so we only commit real list changes
-          if git diff --quiet -I '^# AdGuard DNS filter' -- adguard_dns.domainset adguard_dns_allow.list; then
+          python adguard2shadowrocket.py .
+          python hagezi2shadowrocket.py .
+      - name: Commit if a list changed
+        run: |
+          git add adguard_dns.domainset adguard_dns_allow.list adguard_dns_wildcard.list hagezi_regex.list
+          # Ignore the timestamp lines so we only commit real list changes
+          if git diff --cached --quiet -I '^# AdGuard DNS filter' -I '^# HaGeZi RegEx'; then
             echo "No changes"; exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add adguard_dns.domainset adguard_dns_allow.list
           git commit -m "Update lists ($(head -1 adguard_dns.domainset | sed 's/^# //'))"
           git push
