@@ -1,4 +1,4 @@
-# AdGuard DNS filter v1.0.85.93 for Shadowrocket — converted 2026-11-09 22:19 UTC
+# AdGuard DNS filter v1.0.85.95 for Shadowrocket — converted 2026-11-10 07:14 UTC
 # Source: https://filters.adtidy.org/dns/filter_1.txt
 DOMAIN,ads.adsterra.com
 DOMAIN,adsterra.com

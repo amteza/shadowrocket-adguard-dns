@@ -1,4 +1,4 @@
-# HaGeZi RegEx/Wildcard for Shadowrocket — converted 2026-11-09 22:19 UTC
+# HaGeZi RegEx/Wildcard for Shadowrocket — converted 2026-11-10 07:14 UTC
 # Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adguard/regex-wildcard-rules.txt
 # skipped (no Shadowrocket equivalent): /(^|\.)(0x)?(?=[0-9a-f]*[a-f])(?=[0-9a-f]*[0-9])[0-9a-f]{10,64}\.[a-z]{2,}$/
 # skipped (no Shadowrocket equivalent): /(^|\.)[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}\.[a-z]{2,}$/
