@@ -1,4 +1,4 @@
-# AdGuard DNS filter v1.0.87.8 for Shadowrocket — converted 2026-11-19 20:32 UTC
+# AdGuard DNS filter v1.0.87.14 for Shadowrocket — converted 2026-11-20 07:10 UTC
 # Source: https://filters.adtidy.org/dns/filter_1.txt
 DOMAIN-WILDCARD,*-datareceiver.aki-game.net
 DOMAIN-WILDCARD,*-default-cn.rum.aliyuncs.com
