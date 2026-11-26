@@ -1,4 +1,4 @@
-# AdGuard DNS filter v1.0.87.80 for Shadowrocket — converted 2026-11-25 21:39 UTC
+# AdGuard DNS filter v1.0.87.84 for Shadowrocket — converted 2026-11-26 08:12 UTC
 # Source: https://filters.adtidy.org/dns/filter_1.txt
 DOMAIN-WILDCARD,*-datareceiver.aki-game.net
 DOMAIN-WILDCARD,*-default-cn.rum.aliyuncs.com
@@ -309,6 +309,7 @@ DOMAIN-WILDCARD,*.t*.zcvh.net
 DOMAIN-WILDCARD,*.tag-based.s3.*.amazonaws.com
 DOMAIN-WILDCARD,*.tag-v*.kuzen.io
 DOMAIN-WILDCARD,*.telemetry*.transcend.io
+DOMAIN-WILDCARD,*.telemetry.*.oci.oraclecloud.com
 DOMAIN-WILDCARD,*.telemetry.*.pvp.net
 DOMAIN-WILDCARD,*.teleriumads-*.netdna-ssl.com
 DOMAIN-WILDCARD,*.tnc*.tiktokv.com
@@ -664,6 +665,7 @@ DOMAIN-WILDCARD,t*.zcvh.net
 DOMAIN-WILDCARD,tag-based.s3.*.amazonaws.com
 DOMAIN-WILDCARD,tag-v*.kuzen.io
 DOMAIN-WILDCARD,telemetry*.transcend.io
+DOMAIN-WILDCARD,telemetry.*.oci.oraclecloud.com
 DOMAIN-WILDCARD,telemetry.*.pvp.net
 DOMAIN-WILDCARD,teleriumads-*.netdna-ssl.com
 DOMAIN-WILDCARD,tnc*.tiktokv.com
